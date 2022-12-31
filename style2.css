@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgbg{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+header{
+    position: absolute; 
+    top: auto;
+    width: 58%;
+    height: 75%;
+    background-color: #fff;
+    box-shadow: 0px 0px 50px -1px black;
+    padding: 0px 30px;
+}
+ nav{
+    width: 100%;
+    height: 10%;
+    /* border: 2px solid black; */
+}
+header .logo{
+    width: 250px;
+    height: 350px;
+    background-color: #282828;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    
+}
+header .logo h1{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+header .logo img{
+  width: 250px;
+  margin: 20px 0px 0px 0px;
+  margin-top: 40px;
+}
+header section {
+    width: 100%;
+    height: 90%;
+
+}
+header section .box {
+    position: relative;
+    left: 370px;
+    margin-top: 10%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+header section a{
+    padding: 4px 20px;
+    margin-top: 30px;
+    background-color: black;
+    color: #fff;
+}
+header section .cards{
+    width: 100%;
+    height: 140px;
+    /* border: 1px solid #282828; */
+    position: relative;
+    top: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+
+}
+header section .cards .card{
+    position: relative;
+    width: 125px;
+    height: 140px;
+    border: 1px solid black;
+    background-color: #0b0000;
+    border-radius: 50px 10px 10px 10px;
+    
+}
+header section .cards .card h5{
+    margin: 2px;
+}
+header section .cards .card .chicken{
+    width: 70px;
+    position: relative;
+    top: -5px;
+    left: -5px;
+    border-radius: 100%;
+}
+header section .cards .card .mutton{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: -5px;
+    left: -5px;
+    border-radius: 100%;
+}
+header section .cards .card .handi{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: -5px;
+    left: -5px;
+    border-radius: 100%;
+}
+header section .cards .card .bombay{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: -5px;
+    left: -5px;
+    border-radius: 100%;
+    text-decoration: none;
+}
+header section .cards .card .Hydrabad{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: -5px;
+    left: -5px;
+    border-radius: 100%;
+}
+header section .cards .card h3{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    color:#fff;
+}
+header section .cards .card h5{
+    color: #fff;
+    
+
+}
+
+.hov:hover{
+    
+    cursor: pointer;
+    transform: scale(1.1);
+   background-color: rgb(246, 240, 59) ;
+   
+   
+}
+header section .cards .card .cart{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content:space-between;
+color: #fff;
+padding: 2px 10px;
+
+}
+header section .cards .card .cart .cartimg{
+    width: 30%;
+    height: 15%;
+}

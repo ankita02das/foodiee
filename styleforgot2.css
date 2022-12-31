@@ -1,0 +1,62 @@
+@media screen and (max-width:1000px)
+{
+
+
+header{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: auto;
+}
+
+
+
+.imgholder{
+    order:-1;
+    height: 40px;
+    width: 40px;
+}
+
+.navicon{
+    height: 40px;
+    display: block;
+}
+
+.closeicon{
+    position: absolute;
+    top: 25px;
+    left: 240px;
+
+}
+
+.mainpage{
+
+  
+    position:relative;
+    top: 0px;
+    left: 0px;
+    height: 1000%;
+    width: auto;
+    
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.maincontainer{
+    margin-top:20px;
+    margin-left: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: auto;
+    width: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    box-shadow: 6px 0px 18px #6b6969;
+}
+
+}

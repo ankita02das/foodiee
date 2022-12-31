@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    } 
+    :root{
+        --bgcolor:rgb(97, 8, 8);
+        --txtcolor:rgb(251, 249, 249);
+    }
+    
+    .darkmode{
+        --bgcolor:rgb(145, 95, 14);
+        --txtcolor:rgb(16, 13, 13);
+    }
+
+
+.bg
+{
+    height: 600px;
+  width: 100%;
+    position: relative;
+
+}
+/* header part */
+
+
+header
+{
+    width:auto;
+    height: 100px;
+   background-color:var(--bgcolor);
+    display: flex;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+} 
+
+
+.hover:hover{
+
+    cursor: pointer;
+    transform: scale(1.1);
+    color: rgb(23, 219, 69) ;
+
+}
+.col {
+
+        color: var(--txtcolor) ;
+    } 
+
+     .log{
+color:rgb(23, 219, 69);}
+
+.logosec
+{
+    width: 30%;
+     height: 100px;
+/* background-color: rgb(118, 121, 123);  */
+display: flex;
+align-items: center;
+gap: 5px;
+/* justify-content: center; */
+font-style: italic;
+
+}
+.logoimg
+{
+    height: 90px;
+}
+.logosec h1, nav h1{
+    color: #f8f7fe;
+    text-decoration: none;
+}
+
+nav{
+    width: 70%;
+    height: 100px;
+/* background-color: brown; */
+display: flex;
+justify-content: end;
+align-items: center;
+gap: 40px;
+
+}
+
+.navicon
+{
+    display:none ;
+}
+.imgholder
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+border: 3px solid #f6f6f9;
+}
+.profileimg{
+    height: 80px;
+    
+}
+
+
+
+.mainpage{
+    height: 600px;
+    width: auto;
+}
+/* main container */
+
+
+.maincontainer{
+    
+    
+    
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+       height: 400px;
+       width: 600px;
+        /* background-color: aquamarine;  */
+       /* border: 1px black solid ; */
+    margin-top: 200px;
+    margin-left: 500px;
+    position: absolute;
+    top: 50px;
+    box-shadow: 10px 10px 15px rgb(70, 68, 68);
+   
+} 
+.container1
+{
+    height : 400px;
+    width: 300px;
+    border: 1px black solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+.bg1{
+    height : 400px;
+    width: 300px;
+    position: relative;
+}
+.welcome
+{position: absolute;
+    top: 50px;
+   color:rgb(252, 252, 245);
+   margin-top: 81px;
+   text-size-adjust: 20px;
+}
+
+.container2{
+    height : 400px;
+    width: 300px;
+    /* background-color: purple; */
+    border: 1px black solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form
+{
+    color: rgb(20, 3, 59);
+}
+.part
+{
+ display: flex;
+ justify-content:left ;
+ align-items: center;
+height: 30px;
+width: 200px;
+ /* background-color: aquamarine;  */
+border: 1px black solid ;
+text-align: center;
+}  
+
+.login
+{
+    height : 30px;
+    width: 100px;
+    background-color: rgb(97, 8, 8); 
+border: 1px black solid ;
+color: rgb(228, 220, 220);
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.sign{
+    height : 30px;
+    width: 100px;
+    /* background-color: rgb(37, 134, 194);  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .login2
+{
+    height : 30px;
+    width: 200px;
+    background-color: rgb(102, 8, 8); ; 
+border: 1px black solid ;
+color: aliceblue;
+border-radius: 5px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.btn{
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;
+    background-color:  rgb(97, 8, 8);
+    color:var(--txtcolor);
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+    border: 2px var(--txtcolor) solid;
+    outline: none;
+    margin-left: 30px;
+    transition: all 0.5s ease-in-out;
+  
+}
+.btn:hover{
+    transform:scale(1.1) ;
+    
+    }
+
+p{
+    color: rgb(14, 3, 3); 
+}
+.signing
+{
+    color: rgb(56, 6, 6); 
+}
+
+.type
+{
+    border-radius: 5px;
+}
+
+
+.btn2{
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    background-color: rgb(220, 73, 36);
+    color:var(--txtcolor);
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+    border: 2px var(--txtcolor) solid;
+    outline: none;
+    margin-left: 30px;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn2:hover{
+    transform:scale(1.1) ;
+    
+    }

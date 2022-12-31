@@ -1,0 +1,86 @@
+@media screen and (max-width:1000px)
+{
+   
+
+header{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 180px;
+    width: auto;
+    flex-direction: column;
+
+}
+
+
+nav{
+    width: 50%;
+    height: 80px;
+    gap: 15px;
+    padding-left: 330px;
+    font-size: 1rem;
+}
+.imgholder{
+    order:-1;
+    height: 40px;
+    width: 40px;
+}
+.profileimg{
+    height: 50px;
+    
+}
+
+.navicon{
+    height: 40px;
+    display: block;
+}
+
+.closeicon{
+    position: absolute;
+    top: 25px;
+    left: 240px;
+
+}
+
+.mainpage{
+
+  
+    position:relative;
+    top: 0px;
+    left: 0px;
+    height: 1000px;
+    width: auto;
+    
+   
+    
+}
+.bg{
+    height: 1000px;
+}
+.maincontainer{
+    margin-top:20px;
+    margin-left: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: auto;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content:start;
+    box-shadow: 6px 0px 18px #6b6969;
+}
+.welcome
+{
+    padding-top:150px;
+    padding-left: 84px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+   
+  
+    
+    
+}
+}
